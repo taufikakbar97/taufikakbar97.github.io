@@ -1,0 +1,132 @@
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+	/*html{
+		scroll-behavior: smooth;
+	}*/
+	.work-ul {
+		padding-left: 15px;
+	}
+	
+}
+
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+	/*html{
+		scroll-behavior: smooth;
+	}*/
+
+	.cv-button{
+		margin-bottom: 20px;
+	}
+
+	.project-holder{
+		margin-bottom: 50px;
+		height: 350px;
+	}
+
+}
+
+
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+	/*html{
+		scroll-behavior: smooth;
+	}*/
+
+	.navbar-web{
+		display: none;
+	}
+
+	.burger-menu{
+		display: block;
+	}
+
+	.responsive-headline{
+		font-size: 2em;
+		line-height: 31px;
+	}
+
+	.headline-section h3{
+		font-size: 1.2em;
+		line-height: 25px;
+	}
+
+	.project-holder{
+		margin-bottom: 20px;
+		height: 180px;
+	}
+}	
+
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+/*
+	html{
+		scroll-behavior: smooth;
+	}*/
+
+	.navbar-web{
+		display: none;
+	}
+
+	.burger-menu{
+		display: block;
+	}
+
+	.responsive-headline{
+		font-size: 2em;
+		line-height: 31px;
+	}
+
+	.headline-section h3{
+		font-size: 1.2em;
+		line-height: 25px;
+	}
+
+	.cv-button{
+		margin-bottom: 20px;
+	}
+
+	.skill-type{
+		font-size: 0.7em;
+		line-height: 25px;
+		width: 15%;
+	}
+
+	.education{
+		max-width: 55%;
+	}
+
+	.resume-left-title{
+		max-width: 40%;	
+	}
+
+	.resume-right h2{
+		line-height: 40px;
+	}
+
+	.project-holder{
+		margin-bottom: 20px;
+		height: 190px;
+	}
+
+	.button-up{
+		left: 45%;
+	}
+
+	.sosmed-atas a{
+		font-size: 0.8em;
+	}
+
+}
